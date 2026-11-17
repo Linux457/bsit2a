@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fil">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lorenzo’s Chicken</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <img src="images/logo.jpg" alt="Lorenzo’s Chicken logo">
+  <ul><li><a href="#home">Home</a></li><li><a href="#menu">Menu</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav>
+
+<section id="home">
+  <img src="images/fried-chicken.jpg" alt="Fried chicken">
+  <h1>LORENZO’S CHICKEN</h1>
+  <p>Masarap na Lechon Manok — fresh at native manok ang gamit, quality talaga, bagong luto araw-araw. Presyo: ₱280 / buo</p>
+  <button id="start">Get Started</button>
+</section>
+
+<section id="menu"></section>
+
+<section id="receipt">
+  <button class="gb" id="cancel">Cancel</button>
+  <div class="rc">
+    <h2>Receipt</h2><h2 class="s">LORENZO’S CHICKEN</h2><small>Paudpod, Botolan, Zambales</small>
+    <table><thead><tr><th>ITEM</th><th>QTY</th><th>PRICE</th></tr></thead><tbody id="rows"></tbody></table>
+    <div class="tot"><span>TOTAL</span><span id="total">₱0</span></div>
+    <div class="th">Salamat po sa pagbili!<br>Bumili ulit kayo sa amin<br>Masarap na manok, bagong luto araw-araw para sa inyo.</div>
+  </div>
+  <button class="gb" id="purchase">Purchase</button>
+  <div id="msg" role="status"></div>
+</section>
+
+<section id="complete">
+  <div class="done" id="done">
+    <h3>ORDER COMPLETE</h3>
+    <p>Salamat po!!!!</p>
+    <p>Located at Paudpod, Botolan, Zambales</p>
+    <p>Open- 8AM-7PM</p>
+    <p id="sum"></p>
+    <button id="cont">CONTINUE</button>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>CONTACT US</h2>
+  <a class="ct" href="https://www.facebook.com/" target="_blank" rel="noopener">
+    <svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1877f2"/><path d="M44 64V40h8l1.500-10H44v-6c0-3 1.400-5 5-5h5V10c-1-.2-4-.5-7.500-.5C39 9.500 34 14 34 22v8h-9v10h9v24z" fill="#fff"/></svg>
+    <span>FACEBOOK - <b>LORENZO’S CHICKEN</b></span>
+  </a>
+  <a class="ct" href="mailto:lorenzochicken@gmail.com">
+    <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#fff" stroke="#111" stroke-width="2"/><path d="M14 22v22h6V28l12 9 12-9v16h6V22l-3-2-15 11-15-11z" fill="#ea4335"/><path d="M14 22l3-2 3 2v22h-6z" fill="#4285f4"/><path d="M44 22l3-2 3 2v22h-6z" fill="#34a853"/></svg>
+    <span>EMAIL - <span class="mail">lorenzochicken@gmail.com</span></span>
+  </a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
